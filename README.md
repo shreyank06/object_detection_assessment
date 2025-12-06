@@ -29,9 +29,10 @@ Open
 | Frontend | 3000 | Web UI |
 | UI Backend | 5000 | REST API |
 | AI Backend | 5001 | YOLOv3 inference |
+```
 
 ## Usage
-
+```
 1. Open http://localhost:3000
 2. Upload an image (drag & drop or click)
 3. Click "Detect Objects"

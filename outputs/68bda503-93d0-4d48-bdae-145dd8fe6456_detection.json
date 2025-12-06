@@ -1,0 +1,62 @@
+{
+  "request_id": "68bda503-93d0-4d48-bdae-145dd8fe6456",
+  "timestamp": "2025-12-04T18:02:46.352857",
+  "original_file": "68bda503-93d0-4d48-bdae-145dd8fe6456_images (4).jpeg",
+  "detection_results": {
+    "confidence_threshold": 0.5,
+    "detections": [
+      {
+        "bbox": {
+          "height": 100,
+          "width": 60,
+          "x": 128,
+          "x_max": 188,
+          "y": 95,
+          "y_max": 195
+        },
+        "class": "chair",
+        "confidence": 0.9976856112480164
+      },
+      {
+        "bbox": {
+          "height": 89,
+          "width": 62,
+          "x": 43,
+          "x_max": 105,
+          "y": 100,
+          "y_max": 189
+        },
+        "class": "chair",
+        "confidence": 0.9967061877250671
+      },
+      {
+        "bbox": {
+          "height": 90,
+          "width": 85,
+          "x": 71,
+          "x_max": 156,
+          "y": 99,
+          "y_max": 189
+        },
+        "class": "diningtable",
+        "confidence": 0.989621639251709
+      },
+      {
+        "bbox": {
+          "height": 13,
+          "width": 10,
+          "x": 93,
+          "x_max": 103,
+          "y": 94,
+          "y_max": 107
+        },
+        "class": "vase",
+        "confidence": 0.8140457272529602
+      }
+    ],
+    "objects_detected": 4,
+    "output_image_path": "/app/outputs/38a79268-b0da-4710-89c0-46a7d31cac94_detected.jpg",
+    "request_id": "38a79268-b0da-4710-89c0-46a7d31cac94",
+    "timestamp": "2025-12-04T18:02:46.856753"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "request_id": "1a99bc63-6e55-48f5-bba3-25301ee0a75b",
+  "timestamp": "2025-12-04T18:02:10.952262",
+  "original_file": "1a99bc63-6e55-48f5-bba3-25301ee0a75b_images (2).jpeg",
+  "detection_results": {
+    "confidence_threshold": 0.5,
+    "detections": [],
+    "objects_detected": 0,
+    "output_image_path": "/app/outputs/4e3b1c83-46e7-44fc-8a40-7cab7ad8ad57_detected.jpg",
+    "request_id": "4e3b1c83-46e7-44fc-8a40-7cab7ad8ad57",
+    "timestamp": "2025-12-04T18:02:11.451296"
+  }
+}

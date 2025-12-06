@@ -1,0 +1,26 @@
+{
+  "request_id": "6e5608af-adb9-4e5a-8bf8-96ae8683fa2e",
+  "timestamp": "2025-12-04T19:23:27.906564",
+  "original_file": "6e5608af-adb9-4e5a-8bf8-96ae8683fa2e_images (5).jpeg",
+  "detection_results": {
+    "confidence_threshold": 0.5,
+    "detections": [
+      {
+        "bbox": {
+          "height": 89,
+          "width": 59,
+          "x": 72,
+          "x_max": 131,
+          "y": 145,
+          "y_max": 234
+        },
+        "class": "vase",
+        "confidence": 0.9726884961128235
+      }
+    ],
+    "objects_detected": 1,
+    "output_image_path": "/app/outputs/c9fefcbb-4e00-42fa-b02b-770bb1176376_detected.jpg",
+    "request_id": "c9fefcbb-4e00-42fa-b02b-770bb1176376",
+    "timestamp": "2025-12-04T19:23:28.384312"
+  }
+}

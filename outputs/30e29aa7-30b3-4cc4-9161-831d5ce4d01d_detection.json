@@ -1,0 +1,38 @@
+{
+  "request_id": "30e29aa7-30b3-4cc4-9161-831d5ce4d01d",
+  "timestamp": "2025-12-04T17:59:31.189998",
+  "original_file": "30e29aa7-30b3-4cc4-9161-831d5ce4d01d_1741714196326-01.jpg",
+  "detection_results": {
+    "confidence_threshold": 0.5,
+    "detections": [
+      {
+        "bbox": {
+          "height": 593,
+          "width": 533,
+          "x": 71,
+          "x_max": 604,
+          "y": 128,
+          "y_max": 721
+        },
+        "class": "person",
+        "confidence": 0.9999423027038574
+      },
+      {
+        "bbox": {
+          "height": 314,
+          "width": 359,
+          "x": 279,
+          "x_max": 638,
+          "y": 424,
+          "y_max": 738
+        },
+        "class": "dog",
+        "confidence": 0.7849162817001343
+      }
+    ],
+    "objects_detected": 2,
+    "output_image_path": "/app/outputs/45890dbb-0d8f-46db-8263-dbc6f08a5781_detected.jpg",
+    "request_id": "45890dbb-0d8f-46db-8263-dbc6f08a5781",
+    "timestamp": "2025-12-04T17:59:33.215967"
+  }
+}

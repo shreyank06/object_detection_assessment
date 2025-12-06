@@ -1,0 +1,26 @@
+{
+  "request_id": "4315caa0-e852-4612-8c07-e64448245dbc",
+  "timestamp": "2025-12-04T19:25:52.202325",
+  "original_file": "4315caa0-e852-4612-8c07-e64448245dbc_images (9).jpeg",
+  "detection_results": {
+    "confidence_threshold": 0.5,
+    "detections": [
+      {
+        "bbox": {
+          "height": 95,
+          "width": 129,
+          "x": 68,
+          "x_max": 197,
+          "y": 45,
+          "y_max": 140
+        },
+        "class": "truck",
+        "confidence": 0.998981773853302
+      }
+    ],
+    "objects_detected": 1,
+    "output_image_path": "/app/outputs/1bd87634-c2fe-4a8c-976d-ac206e563843_detected.jpg",
+    "request_id": "1bd87634-c2fe-4a8c-976d-ac206e563843",
+    "timestamp": "2025-12-04T19:25:52.753189"
+  }
+}

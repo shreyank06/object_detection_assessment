@@ -1,0 +1,26 @@
+{
+  "request_id": "a6d7fd83-cd9f-4635-b8e3-27f9e7ac305e",
+  "timestamp": "2025-12-04T18:01:32.269777",
+  "original_file": "a6d7fd83-cd9f-4635-b8e3-27f9e7ac305e_images.jpeg",
+  "detection_results": {
+    "confidence_threshold": 0.5,
+    "detections": [
+      {
+        "bbox": {
+          "height": 143,
+          "width": 211,
+          "x": 35,
+          "x_max": 246,
+          "y": 57,
+          "y_max": 200
+        },
+        "class": "cake",
+        "confidence": 0.8724592924118042
+      }
+    ],
+    "objects_detected": 1,
+    "output_image_path": "/app/outputs/7a0d2d83-c7b3-4401-b680-0041a68e1e7e_detected.jpg",
+    "request_id": "7a0d2d83-c7b3-4401-b680-0041a68e1e7e",
+    "timestamp": "2025-12-04T18:01:32.804101"
+  }
+}

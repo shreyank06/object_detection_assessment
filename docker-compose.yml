@@ -1,0 +1,48 @@
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    container_name: frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - ui-backend
+    networks:
+      - detection-network
+    environment:
+      - UI_BACKEND_URL=http://localhost:5000
+
+  ui-backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.ui
+    container_name: ui-backend
+    ports:
+      - "5000:5000"
+    environment:
+      - AI_BACKEND_URL=http://ai-backend:5001
+    volumes:
+      - ./outputs:/app/outputs
+      - ./uploads:/app/uploads
+    depends_on:
+      - ai-backend
+    networks:
+      - detection-network
+
+  ai-backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.ai
+    container_name: ai-backend
+    ports:
+      - "5001:5001"
+    volumes:
+      - ./outputs:/app/outputs
+      - ./models:/app/models
+    networks:
+      - detection-network
+
+networks:
+  detection-network:
+    driver: bridge

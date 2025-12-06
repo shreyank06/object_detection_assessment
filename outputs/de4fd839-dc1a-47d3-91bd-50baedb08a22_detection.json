@@ -1,0 +1,74 @@
+{
+  "request_id": "de4fd839-dc1a-47d3-91bd-50baedb08a22",
+  "timestamp": "2025-12-04T18:02:14.700982",
+  "original_file": "de4fd839-dc1a-47d3-91bd-50baedb08a22_dk ganz1 800x626.jpg",
+  "detection_results": {
+    "confidence_threshold": 0.5,
+    "detections": [
+      {
+        "bbox": {
+          "height": 272,
+          "width": 77,
+          "x": 38,
+          "x_max": 115,
+          "y": 71,
+          "y_max": 343
+        },
+        "class": "chair",
+        "confidence": 0.8773936033248901
+      },
+      {
+        "bbox": {
+          "height": 550,
+          "width": 579,
+          "x": 154,
+          "x_max": 733,
+          "y": 45,
+          "y_max": 595
+        },
+        "class": "diningtable",
+        "confidence": 0.8394321203231812
+      },
+      {
+        "bbox": {
+          "height": 29,
+          "width": 36,
+          "x": 298,
+          "x_max": 334,
+          "y": 91,
+          "y_max": 120
+        },
+        "class": "cup",
+        "confidence": 0.6660376191139221
+      },
+      {
+        "bbox": {
+          "height": 80,
+          "width": 110,
+          "x": 419,
+          "x_max": 529,
+          "y": 47,
+          "y_max": 127
+        },
+        "class": "chair",
+        "confidence": 0.634093165397644
+      },
+      {
+        "bbox": {
+          "height": 474,
+          "width": 193,
+          "x": 183,
+          "x_max": 376,
+          "y": 128,
+          "y_max": 602
+        },
+        "class": "chair",
+        "confidence": 0.5450760722160339
+      }
+    ],
+    "objects_detected": 5,
+    "output_image_path": "/app/outputs/6c5a5882-fc7c-4f13-aa38-4fac936dee06_detected.jpg",
+    "request_id": "6c5a5882-fc7c-4f13-aa38-4fac936dee06",
+    "timestamp": "2025-12-04T18:02:15.233207"
+  }
+}

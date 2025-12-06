@@ -1,0 +1,13 @@
+{
+  "request_id": "4be6b84c-ee0b-4bcc-80d6-8424fceca2ca",
+  "timestamp": "2025-12-04T19:24:21.911565",
+  "original_file": "4be6b84c-ee0b-4bcc-80d6-8424fceca2ca_shutterstock_1483531313-Optimized.jpg",
+  "detection_results": {
+    "confidence_threshold": 0.5,
+    "detections": [],
+    "objects_detected": 0,
+    "output_image_path": "/app/outputs/cc67e1ef-5c5f-4dff-a80e-46dd482329e9_detected.jpg",
+    "request_id": "cc67e1ef-5c5f-4dff-a80e-46dd482329e9",
+    "timestamp": "2025-12-04T19:24:22.427721"
+  }
+}

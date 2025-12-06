@@ -1,0 +1,62 @@
+{
+  "request_id": "e60f67f9-a48e-4c46-ae0c-abfadcdd686e",
+  "timestamp": "2025-12-04T19:25:28.172941",
+  "original_file": "e60f67f9-a48e-4c46-ae0c-abfadcdd686e_images (8).jpeg",
+  "detection_results": {
+    "confidence_threshold": 0.5,
+    "detections": [
+      {
+        "bbox": {
+          "height": 161,
+          "width": 97,
+          "x": 46,
+          "x_max": 143,
+          "y": 90,
+          "y_max": 251
+        },
+        "class": "zebra",
+        "confidence": 0.9998754262924194
+      },
+      {
+        "bbox": {
+          "height": 41,
+          "width": 48,
+          "x": 105,
+          "x_max": 153,
+          "y": 82,
+          "y_max": 123
+        },
+        "class": "zebra",
+        "confidence": 0.9929530024528503
+      },
+      {
+        "bbox": {
+          "height": 22,
+          "width": 24,
+          "x": -1,
+          "x_max": 23,
+          "y": 88,
+          "y_max": 110
+        },
+        "class": "zebra",
+        "confidence": 0.9684785008430481
+      },
+      {
+        "bbox": {
+          "height": 14,
+          "width": 16,
+          "x": 160,
+          "x_max": 176,
+          "y": 80,
+          "y_max": 94
+        },
+        "class": "zebra",
+        "confidence": 0.9070507884025574
+      }
+    ],
+    "objects_detected": 4,
+    "output_image_path": "/app/outputs/0f244083-9aa4-488c-a282-91a08ee072a2_detected.jpg",
+    "request_id": "0f244083-9aa4-488c-a282-91a08ee072a2",
+    "timestamp": "2025-12-04T19:25:28.651736"
+  }
+}

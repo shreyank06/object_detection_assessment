@@ -1,0 +1,26 @@
+{
+  "request_id": "6ceb9405-516e-4601-8bde-ba4744df960a",
+  "timestamp": "2025-12-04T19:24:47.690088",
+  "original_file": "6ceb9405-516e-4601-8bde-ba4744df960a_Hammer-Schlosserhammer-800g-Hammerstiel-Metallhammer-Schlosshammer-Eschenstiel-22068-917477_5.jpg",
+  "detection_results": {
+    "confidence_threshold": 0.5,
+    "detections": [
+      {
+        "bbox": {
+          "height": 1279,
+          "width": 1405,
+          "x": 109,
+          "x_max": 1514,
+          "y": 158,
+          "y_max": 1437
+        },
+        "class": "surfboard",
+        "confidence": 0.5382526516914368
+      }
+    ],
+    "objects_detected": 1,
+    "output_image_path": "/app/outputs/39d550c7-3cb7-41f6-9622-a571c8e1471f_detected.jpg",
+    "request_id": "39d550c7-3cb7-41f6-9622-a571c8e1471f",
+    "timestamp": "2025-12-04T19:24:48.243104"
+  }
+}

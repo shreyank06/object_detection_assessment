@@ -38,11 +38,19 @@ Open
 3. Click "Detect Objects"
 4. View results with bounding boxes
 ```
+## Stop
+```
+docker-compose down             # Stop
+```
+
+## Output
+```
+Output is in outputs folder
+```
 ## Commands
 
 ```
 docker-compose logs -f          # View logs
-docker-compose down             # Stop
 docker-compose down --rmi all --volumes && docker-compose up --build -d  # Clean restart
 ```
 
